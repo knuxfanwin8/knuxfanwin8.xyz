@@ -1,0 +1,118 @@
+body {
+    color: #000;
+    background-image: url(bg-new-smol.jpg);
+    font-size: 6vh;
+    text-align: center;
+    background-size: cover;
+    font-family: Lato, sans-serif;
+}
+#header {
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+    flex-direction:column;
+}
+@keyframes logomove {
+    0% {
+        margin-left: -100%;
+        opacity: 0;
+    }
+    50% {
+        margin-left: 0;
+        opacity: 1;
+    }
+    75% {
+        margin-left: 0;
+        margin-bottom: 0px;
+        opacity: 1;
+    }
+    100% {
+        margin-bottom: 5vh;
+    }
+}
+@keyframes linksmove {
+    0% {
+        opacity: 0;
+        pointer-events: none;
+        font-size:0px;
+    }
+    100% {
+        opacity: 1;
+        pointer-events: initial;
+        padding: 5px;
+        font-size: 4vh;
+    }
+}
+@keyframes linkzoom {
+    0% {
+        font-size: 6vh;
+    }
+    100% {
+        font-size: 8vh;
+    }
+}
+@keyframes showsitestuff {
+    0% {
+        opacity: 0;
+        pointer-events: none;
+    }
+    100% {
+        opacity: 1;
+        pointer-events: initial;
+    }
+}
+.logo {
+    animation-name: logomove;
+    animation-duration: 3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    max-width: 40vh;
+}
+.links {
+    animation-name: linksmove;
+    animation-delay: 2.5s;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+    opacity: 0;
+    font-size: 1px;
+    pointer-events: none;
+}
+.button {
+    display: inline-flex;
+    justify-content:center;
+    align-items:center;
+    flex-wrap: wrap;
+    flex-direction:column;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+    width: 7vh;
+    height: 7vh;
+}
+a:link, a:visited, a:hover, a:active {
+    color: #fff;
+}
+a:hover, a:active {
+    text-decoration: none;
+}
+a:hover .button{
+    animation-name: linkzoom;
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+.label {
+    pointer-events: none;
+    font-size: 2vh;
+    opacity: 0;
+    background: #3d3d3d;
+    animation-name: showsitestuff; 
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+}
