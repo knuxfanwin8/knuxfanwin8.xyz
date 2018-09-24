@@ -46,11 +46,22 @@ body {
     }
 }
 @keyframes linkzoom {
+    100% {
+        font-size: 7vh;
+        width: 9vh;
+        height: 9vh;
+    }
+}
+@keyframes linkunzoom {
     0% {
-        font-size: 6vh;
+        font-size: 7vh;
+        width: 9vh;
+        height: 9vh;
     }
     100% {
-        font-size: 8vh;
+        font-size: 5vh;
+        width: 7vh;
+        height: 7vh;
     }
 }
 @keyframes showsitestuff {
@@ -92,6 +103,10 @@ body {
     border-radius: 50%;
     width: 7vh;
     height: 7vh;
+    animation-name: linkunzoom;
+    animation-duration: 0.1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
 }
 a:link, a:visited, a:hover, a:active {
     color: #fff;
@@ -99,7 +114,7 @@ a:link, a:visited, a:hover, a:active {
 a:hover, a:active {
     text-decoration: none;
 }
-a:hover .button{
+.button:hover{
     animation-name: linkzoom;
     animation-duration: 0.5s;
     animation-timing-function: ease;
