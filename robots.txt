@@ -1,0 +1,3 @@
+# Beep boop. Boop beep?
+
+Sitemap: sitemap.xml
