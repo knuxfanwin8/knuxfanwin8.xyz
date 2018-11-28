@@ -18,16 +18,9 @@ body {
     height: 350px;
     
 }
-.logo {
-    margin-top: 110px;
-    font-size: 60px;
-}
-.info {
-    margin-top: 100px;
-}
-.button-container {
-    margin-top: 15px;
-}
+.logo {margin-top: 110px; font-size: 60px;}
+.info {margin-top: 100px;}
+.button-container {margin-top: 15px;}
 .button {
     font-size: 18px;
     padding-top: 10px;
@@ -42,32 +35,14 @@ body {
     background-color: #131313;
     color: #fff;
 }
-.section-header {
-    font-size:26px;
-}
-.section-subheader {
-    font-size:23px;
-}
-.section-description {
-    font-size: 18px;
-    color: #f6f6f6;
-}
-.footer {
-    font-size: 14px;
-    background-color: rgba(68, 68, 68, 0.5);
-}
-a:link {
-    color: #1d67c6;
-}
-a:visited {
-    color: #1d67c6;
-}
-a:hover {
-    color: #297dd1;
-}
-a:active {
-    color: #1d67c6;
-}
+.section-icon {font-size: 48px;}
+.section-header {font-size:26px;}
+.section-subicon {font-size:32px;}
+.section-subheader {font-size:23px;}
+.section-description {font-size: 18px; color: #f6f6f6;}
+.footer { font-size: 14px; background-color: rgba(68, 68, 68, 0.5);}
+a:link, a:visited, a:active {color: #1d67c6;}
+a:hover {color: #297dd1;}
 
 @media only screen and (min-width: 751px) {
     .info {
