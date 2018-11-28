@@ -121,7 +121,7 @@ a:hover, a:active {
     animation-fill-mode: forwards;
 }
 .label {
-    margin-top: -10px;
+    margin-top: 10px;
     pointer-events: none;
     font-size: 2vh;
     opacity: 0;
