@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/knuxfanwin8
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://knuxfanwin8.xyz
+  * I am knuxfanwin8 (https://keybase.io/knuxfanwin8) on keybase.
+  * I have a public key with fingerprint B7F9 7BD6 87BA EA44 C7DC  904F 93EA 7D2F 95A5 99D0
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101b96265d7a0e0435367f496d55f86fad5c83b8f24d1e744d03638953d92e55bbd0a",
+      "fingerprint": "b7f97bd687baea44c7dc904f93ea7d2f95a599d0",
+      "host": "keybase.io",
+      "key_id": "93ea7d2f95a599d0",
+      "kid": "0101b96265d7a0e0435367f496d55f86fad5c83b8f24d1e744d03638953d92e55bbd0a",
+      "uid": "2f331774305be711e7525fc8c0fae519",
+      "username": "knuxfanwin8"
+    },
+    "service": {
+      "hostname": "knuxfanwin8.xyz",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1551564287,
+  "expire_in": 157680000,
+  "prev": "8d26755eca69690f05cbb5dfc9733d34280ad127bccb27833b375fe28a482599",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.0
+Comment: https://keybase.io/crypto
+
+yMIkAnicrZJdSBVBGIaPWmliWeFPf5KtGKGH0+7Ozs7uqYsiJUuDwKIg7bSzM3ta
+1N3j7h5/yQiDCE4FZVCIUKRXmkEXdZNofxcRpRDmzQERQkzIAiNJypqVuqrL5maY
++d73mff7mOdr0gKZKfdynzq3w18eprx60hMP1LT9+NnOYZu0cuF2ro4ub7SeUNeL
+1JmEC3O8wAtYlUUZEqTxlJcABDIyJFUmEBqKbGgE6grAiiFKRKBIkggPZKCoEBBV
+pBBiTHiNC3KGaUWpE3NMy2NYjAwVYSIrCGtUkyQdEV3lJUMFVENENFSoQVUlPDOe
+sV3fwcJhzaUh02Z37BBZjvcP/X/OHV/GiQYAAkIS4CGmSGAGKEJDV3Te0CgUVF/o
+UsfSGqif1Yq3GJrVbFoKdzbIsUKTqVN/tn4zf4tCLa1tjBBzbM/W7XpWPON5MTfs
+m73WmK9upjjymxPBpkXYNJmjiTquaVtcWGBK3TN9sAChAGVJVFCQoy0x06ER01dA
+JCs8W/47tIkhFSLKCEKqa7Iqq7zBQx1jSAxdRQAQwAi8RgQRYV3HIlIAwABBg4qK
+Jikimzbnd9Zo2VwYsphalCFdM2ppXtyh3NmnIzUrAimZgVUrU/1fFshcve7P37M3
+pS/t7rg5PnXnXelM+5fS7OpQouLTtZN8X/n51EsZL4ory4/XpnW/5AOuPJOVPTtc
+3ZUxCZaunqrc++jNx2N1X7OzE1WhotPB3OqSVyV6Wf7h4sYrOYWj8cXpxK5B8nZ2
+YGNiyJ5ZSN5aWPpw4fpCOda9/JdTjr7tuxCcS26OevuGcxLfFwvnKy8OJDvb5k+k
+1yfuVo2XRBtHap/tyUq50DnTsOBePtkzVna/KHU0tGMg/KykJ9mTN9SaVdrV3Xe0
+oPc1Whvsj33LP6JO9L6/kfd5/eTzcxO3ofJ4v1R8qWF6Z3/HXGDr9rKCB/TA4paD
+LcmKDZ3Fh8TI1OXBji2FY3X2L9ebP28=
+=mAev
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/knuxfanwin8
+
+==================================================================
